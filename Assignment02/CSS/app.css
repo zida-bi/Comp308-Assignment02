@@ -1,2 +1,46 @@
 ﻿body {
+    background-image: url('../assets/images/texture.jpg');
+}
+
+#logo, #services, #projects{
+    max-height: 70px;
+    padding:0 0 0 0;
+}
+
+#welcome{
+    font-size:x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position:absolute;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+
+/*Slider outer container CSS*/
+#amazingslider-wrapper-1{
+    display:block;
+    position:relative;
+    max-width:280px;
+    margin:0px auto 0px;
+}
+
+/*Slider inner container CSS*/
+#amazingslider-1{
+    display:block;
+    position:relative;
+    margin:0 auto;
+}
+
+/*Slider images*/
+.amazingslider-slides{
+    display:none;
+}
+
+/*Slider thumbnails*/
+.amazingslider-thumbnails{
+    display:none;
+}
+
+/*Full site nav*/
+#fullsite{
+    text-align:center;
 }

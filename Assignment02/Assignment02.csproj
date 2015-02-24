@@ -65,6 +65,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\AndroidHealth-tn.png" />
+    <Content Include="assets\images\AndroidHealth.png" />
+    <Content Include="assets\images\logo.jpg" />
+    <Content Include="assets\images\MovieTicket-tn.JPG" />
+    <Content Include="assets\images\MovieTicket.JPG" />
+    <Content Include="assets\images\projects.png" />
+    <Content Include="assets\images\services.png" />
+    <Content Include="assets\images\texture.jpg" />
+    <Content Include="assets\images\TicketSys-tn.jpg" />
+    <Content Include="assets\images\TicketSys.jpg" />
     <Content Include="Content\images\ajax-loader.gif" />
     <Content Include="Content\images\icons-png\action-black.png" />
     <Content Include="Content\images\icons-png\action-white.png" />
@@ -290,6 +300,31 @@
     <Content Include="Scripts\jquery.mobile-1.4.5.js" />
     <Content Include="Scripts\jquery.mobile-1.4.5.min.js" />
     <None Include="Scripts\_references.js" />
+    <Content Include="sliderengine\amazingslider-1.css" />
+    <Content Include="sliderengine\amazingslider.js" />
+    <Content Include="sliderengine\html5boxplayer.swf" />
+    <Content Include="sliderengine\initslider-1.js" />
+    <Content Include="sliderengine\jquery.js" />
+    <Content Include="sliderengine\sliderengine\sliderskin\arrows-48-48-4.png" />
+    <Content Include="sliderengine\sliderengine\sliderskin\bullet-16-16-3.png" />
+    <Content Include="sliderengine\sliderengine\sliderskin\carouselarrows-32-32-2.png" />
+    <Content Include="sliderengine\sliderengine\sliderskin\html5boxplayer_fullscreen.png" />
+    <Content Include="sliderengine\sliderengine\sliderskin\html5boxplayer_hd.png" />
+    <Content Include="sliderengine\sliderengine\sliderskin\html5boxplayer_playpause.png" />
+    <Content Include="sliderengine\sliderengine\sliderskin\html5boxplayer_playvideo.png" />
+    <Content Include="sliderengine\sliderengine\sliderskin\html5boxplayer_volume.png" />
+    <Content Include="sliderengine\sliderengine\sliderskin\lightbox-close.png" />
+    <Content Include="sliderengine\sliderengine\sliderskin\lightbox-loading.gif" />
+    <Content Include="sliderengine\sliderengine\sliderskin\lightbox-navnext.png" />
+    <Content Include="sliderengine\sliderengine\sliderskin\lightbox-navprev.png" />
+    <Content Include="sliderengine\sliderengine\sliderskin\lightbox-next.png" />
+    <Content Include="sliderengine\sliderengine\sliderskin\lightbox-playvideo.png" />
+    <Content Include="sliderengine\sliderengine\sliderskin\lightbox-prev.png" />
+    <Content Include="sliderengine\sliderengine\sliderskin\navarrows-28-28-0.png" />
+    <Content Include="sliderengine\sliderengine\sliderskin\navbuttonbgimage-28-28-0.png" />
+    <Content Include="sliderengine\sliderengine\sliderskin\navplaypause-28-28-0.png" />
+    <Content Include="sliderengine\sliderengine\sliderskin\playvideo-64-64-0.png" />
+    <Content Include="sliderengine\sliderengine\sliderskin\previewarrow-16-8-1.png" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery.mobile-1.4.5.min.map" />
   </ItemGroup>
@@ -297,7 +332,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="assets\images\" />
     <Folder Include="Scripts\Libs\" />
   </ItemGroup>
   <PropertyGroup>

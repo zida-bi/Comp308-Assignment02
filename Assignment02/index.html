@@ -7,36 +7,60 @@
 
     <!--css section-->
     <link href="Content/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
-    <link href="CSS/app.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <link href="CSS/app.css" rel="stylesheet" />    
+
 </head>
 <body>
     <!--home page wrapper-->
     <div data-role="page" id="home">
 
         <header data-role="header">
+            <div><a href="#home"><img src="assets/images/logo.jpg" id="logo"/></a><span id="welcome">Zida's Home</span></div> 
             <div data-role="navbar">
                 <ul>
-                    <li><a href="#home" class="ui-btn-active ui-state-persist" data-icon="home" data-transition="flip">Home</a></li>
+                    <li><a href="#home" data-icon="home" class="ui-btn-active ui-state-persist" data-transition="flip">Home</a></li>
                     <li><a href="#aboutme" data-icon="info" data-transition="flip">About Me</a></li>
                     <li><a href="#contactme" data-icon="search" data-transition="flip">Contact Me</a></li>
                 </ul>
             </div>
             <div data-role="navbar">
                 <ul>                   
-                    <li><a href="#projects" data-icon="gear" data-transition="flip">About Me</a></li>
-                    <li><a href="#services" data-icon="custom" data-transition="flip">Contact Me</a></li>
+                    <li><a href="#projects" data-transition="flip"><img src="assets/images/projects.png" id="projects"/></a></li>
+                    <li><a href="#services" data-transition="flip"><img src="assets/images/services.png" id="services"/></a></li>
                 </ul>
             </div>
         </header>
 
         <section data-role="content">
 
-            <h1>Home page</h1>
+           <!--Slider section: amazing slider-->
+            <div id="amazingslider-wrapper-1">
+                <div id="amazingslider-1">
+                    <ul class="amazingslider-slides">
+                        <li>
+                            <img src="assets/images/AndroidHealth.png" />
+                        </li>
+                        <li>
+                            <img src="assets/images/MovieTicket.JPG" />
+                        </li>
+                        <li>
+                            <img src="assets/images/TicketSys.jpg" />
+                        </li>
+                    </ul>
+                    <ul class="amazingslider-thumbnails">
+                        <li><img src="assets/images/AndroidHealth-tn.png" /></li>
+                        <li><img src="assets/images/MovieTicket-tn.JPG" /></li>
+                        <li><img src="assets/images/TicketSys-tn.jpg" /></li>
+                    </ul>                      
+                </div>
+            </div>
 
         </section>
 
         <footer data-role="footer" class="ui-footer-fixed">
             <h6>&copy;Copyright 2015 Zida Bi All rights reserved.</h6>
+            <div id="fullsite"><a href="http://zida-bi.github.io" data-transition="flip">Full Site</a></div>
         </footer>
 
     </div>
@@ -144,9 +168,12 @@
 
 
 
-    <!--javascripts section-->
+    <!--javascripts section-->    
     <script src="Scripts/jquery-1.8.0.min.js"></script>
     <script src="Scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <script src="sliderengine/initslider-1.js"></script>      
     <script src="Scripts/app.js"></script>
 </body>
 </html>
