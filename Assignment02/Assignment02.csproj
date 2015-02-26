@@ -70,6 +70,7 @@
     <Content Include="assets\images\logo.jpg" />
     <Content Include="assets\images\MovieTicket-tn.JPG" />
     <Content Include="assets\images\MovieTicket.JPG" />
+    <Content Include="assets\images\personalPic.jpg" />
     <Content Include="assets\images\projects.png" />
     <Content Include="assets\images\services.png" />
     <Content Include="assets\images\texture.jpg" />
