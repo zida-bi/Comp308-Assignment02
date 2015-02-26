@@ -76,6 +76,10 @@
     <Content Include="assets\images\texture.jpg" />
     <Content Include="assets\images\TicketSys-tn.jpg" />
     <Content Include="assets\images\TicketSys.jpg" />
+    <Content Include="assets\images\webicon-facebook.png" />
+    <Content Include="assets\images\webicon-linkedin.png" />
+    <Content Include="assets\images\webicon-twitter.png" />
+    <Content Include="assets\images\webicon-youtube.png" />
     <Content Include="Content\images\ajax-loader.gif" />
     <Content Include="Content\images\icons-png\action-black.png" />
     <Content Include="Content\images\icons-png\action-white.png" />
