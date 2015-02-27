@@ -1,4 +1,12 @@
-﻿body{
+﻿/*
+    File name: app.css
+    Author: Zida Bi
+    Website name: Zida's Home
+    Description: css document that decorating the html page 
+*/
+
+/*body*/
+body{
 }
 
 /*logo picture, home page image buttons images*/
@@ -25,10 +33,9 @@
 }
 
 /*subtitles in each pages blow of the main titles*/
-/*#subtitle{
-    font-size:small;
-    font-weight: bold;
-}*/
+#subtitle{
+    
+}
 
 /*website name, beside the logo*/
 #welcome{
