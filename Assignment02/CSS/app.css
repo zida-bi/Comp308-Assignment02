@@ -6,18 +6,23 @@
 */
 
 /*body*/
-body{
+body {
+    background-image: url('../assets/images/texture.jpg');
+}
+
+#home, header, #aboutme, #contactme, #projects, #services {
+    background-image: url('../assets/images/texture.jpg');
 }
 
 /*logo picture, home page image buttons images*/
-#logo, #services, #projects{
+#logo, #servicesImg, #projectsImg{
     max-height: 70px;
     padding:0 0 0 0;
     max-width: 100%;
 }
 
 /*home page image buttons images*/
-#services, #projects{
+#servicesImg, #projectsImg{
     height: 100%;
 }
 
@@ -30,11 +35,12 @@ body{
 #pagetitle{
     font-size: xx-large;
     margin:0;
+    font-family: 'Coming Soon', cursive;
 }
 
 /*subtitles in each pages blow of the main titles*/
 #subtitle{
-    
+    font-family: 'Indie Flower', cursive;
 }
 
 /*website name, beside the logo*/
@@ -74,4 +80,9 @@ body{
 /*Full site nav*/
 #fullsite{
     text-align:center;
+}
+
+/*previous work images*/
+#movieTkt, #hlpDesk, #mobileHealth{
+    max-width:100%;
 }
